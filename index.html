@@ -15,54 +15,53 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
-    <form method="post" action="main.php" id="main_form">
-        <fieldset>
-            <legend>Работа с БД</legend>
-            <div class="row">
-                <label for="form_name">Товар: </label>
-                <input name="form_name" id="form_name" type="text"/>
-            </div>
-            <div class="row">
-                <label for="form_cost">Стоимость: </label>
-                <input name="form_cost" id="form_cost" type="text"/>
-            </div>
-            <div class="row">
-                <label for="form_color">Цвет: </label>
-                <select id="form_color">
-                    <option>blue</option>
-                    <option>black</option>
-                    <option>white</option>
-                    <option>yellow</option>
-                    <option>purple</option>
-                    <option>blue</option>
-                </select>
+<form method="post" action="main.php" id="main_form">
+    <fieldset>
+        <legend>Работа с БД</legend>
+        <div class="row">
+            <label for="form_name">Товар: </label>
+            <input name="form_name" id="form_name" type="text"/>
+        </div>
+        <div class="row">
+            <label for="form_cost">Стоимость: </label>
+            <input name="form_cost" id="form_cost" type="text"/>
+        </div>
+        <div class="row">
+            <label for="form_color">Цвет: </label>
+            <select id="form_color">
+                <option>blue</option>
+                <option>black</option>
+                <option>white</option>
+                <option>yellow</option>
+                <option>purple</option>
+                <option>blue</option>
+            </select>
 
-            </div>
-            <div class="row">
-                <label for="form_company">Производитель: </label>
-                <input name="form_company" id="form_company" type="text"/>
-            </div>
-            <div class="row">
-                <label for="form_count">Количество: </label>
-                <input name="form_count" id="form_count" type="text"/>
-            </div>
-            <div id="form_response_insert" style="width: 350px;">
-            </div>
-            <div class="submit">
-                <input type="submit" value="Сохранить" id="form_submit" />
-            </div>
-            <div class="row">
-                <label for="form_numbers_of_requests">Число строк: </label>
-                <input type="text" id="form_numbers_of_requests" />
-            </div>
-            <div class="submit">
-                <input type="button" value="Загрузить данные"  id="form_load"/>
-            </div>
-            <div id="form_response_load">
-            </div>
-        </fieldset>
-    </form>
-
+        </div>
+        <div class="row">
+            <label for="form_company">Производитель: </label>
+            <input name="form_company" id="form_company" type="text"/>
+        </div>
+        <div class="row">
+            <label for="form_count">Количество: </label>
+            <input name="form_count" id="form_count" type="text"/>
+        </div>
+        <div id="form_response_insert" style="width: 350px;">
+        </div>
+        <div class="submit">
+            <input type="submit" value="Сохранить" id="form_submit"/>
+        </div>
+        <div class="row">
+            <label for="form_numbers_of_requests">Число строк: </label>
+            <input type="text" id="form_numbers_of_requests"/>
+        </div>
+        <div class="submit">
+            <input type="button" value="Загрузить данные" id="form_load"/>
+        </div>
+        <div id="form_response_load">
+        </div>
+    </fieldset>
+</form>
 
 
 </body>

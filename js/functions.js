@@ -9,9 +9,6 @@ var fields = ['#form_name',
     '#main_form'];
 $(document).ready(function () {
     validate_form();
-    /* $("#main_form").submit(function (e) {
-     data_insert(e);
-     });*/
     $('#form_load').click(function () {
         data_load();
     });
