@@ -1,0 +1,64 @@
+
+@media screen {
+
+    body {
+        color       : #333;
+        background  : #fafafa;
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size   : 0.75em;
+    }
+    form { margin : 0; }
+    form .row { margin : 10px 0; clear : both; }
+    form .row label {
+        width       : 130px;
+        float       : left;
+        display     : block;
+        font-weight : bold;
+    }
+    form .row input[type=text],form .row select  { width : 200px; }
+    form .submit {
+        padding     : 5px;
+        margin-top  : 20px;
+        background  : #eee;
+    }
+    #form_response_insert {margin-left: 130px;}
+    #form_response_load{
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    table, th, td
+    {
+        border-collapse: collapse;
+        padding:2px;
+        border-style:solid;
+        border-color: #000000;
+        border-width:1px;
+        text-align: center;
+    }
+    th
+    {
+        height:28px;
+        background-color: #afafaf;
+        color:white;
+        border-color:black;
+    }
+    td {
+        padding:10px;
+    }
+    div.error{
+        background 	: #a00;
+        color		: #fff;
+    }
+    div.check{
+        color		: white;
+        background	: #228b22;
+    }
+    label.error {
+        color: red;
+        font-style: italic;
+    }
+    input.error {
+        border: 1px dotted #f00;
+    }
+}
+
